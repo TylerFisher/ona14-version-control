@@ -146,13 +146,6 @@ body {
   border: none;
   box-shadow: none;
   margin: 0; }
-.reveal ul {
-  list-style-type: none; }
-  .reveal ul li {
-    border-bottom: 1px solid #c7f464;
-    padding: 10px 0; }
-  .reveal ul li:last-child {
-    border-bottom: none; }
 .reveal dt {
   font-weight: bold;
   text-align: left;
@@ -164,3 +157,13 @@ body {
   margin-top: 0; }
 .reveal figure.freezeframe-container {
   background-color: black !important; }
+.reveal blockquote {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 110%;
+  text-align: left; }
+.reveal .citation {
+  text-align: right;
+  font-size: 90%; }
