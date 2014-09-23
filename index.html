@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>PRESENTATION TITLE HERE - Tyler Fisher</title>
+        <title>Learn Version Control!</title>
 
         <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
         <meta name="author" content="Hakim El Hattab">
@@ -96,7 +96,7 @@
                 </section>
 
                 <section>
-                    <h3>You've probably used a form of version control.<h3>
+                    <h3>You've probably used a form of version control.</h3>
                     <ul>
                         <li>MS Word or Google Docs' change-tracking</li>
                         <li>"Undo" buttons</li>
@@ -169,7 +169,7 @@
 
                 <section>
                     <section>
-                        <p class="faded">Git stores repositories of <strong>text files</strong> and records a history of changes to those files.</p>
+                        <p class="faded">Git stores repositories of text files and records a <strong>history of changes</strong> to those files.</p>
                         <aside class="notes">
 
                         </aside>
@@ -177,6 +177,27 @@
                     <aside class="notes">
 
                     </aside>
+                </section>
+
+                <section>
+                    <h3 class="jubilat">Git knows how to read text.</h3>
+
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <p>Git can show you what changed in a file.</p>
+                    <p>This is called a <a href="https://github.com/nprapps/borders-map/commit/b39a6faf12baf2a68d9009f87dbc00239ade7ee9">diff</a>.</p>
+
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <p>Over time, we can see a <a href="https://github.com/nprapps/borders-map/commits/master?page=2">history</a> of everything that happened in a repository.</p>
                 </section>
                 <section>
                     <h3>A Git workflow</h3>
@@ -192,8 +213,11 @@
                 <section>
                     <h3>Setting up GitHub for Mac/Windows</h3>
                     <p>If you haven't downloaded the GitHub app, do so now:</p>
-                    <p>http://mac.github.com</p>
-                    <p>http://windows.github.com</p>
+                    <p><a href="http://mac.github.com">http://mac.github.com</a></p>
+                    <p><a href="http://windows.github.com">http://windows.github.com</a></p>
+                </section>
+                <section>
+                    <h3 class="jubilat">You'll also need a GitHub account.</h3>
                 </section>
                 <section>
                     <h3>Setting up GitHub for Mac/Windows</h3>
@@ -202,7 +226,75 @@
                     <img src="img/github-setup.png" />
                 </section>
                 <section>
+                    <h2>Five verbs of Git</h2>
+                    <ol>
+                        <li>Fork</li>
+                        <li>Clone/Pull</li>
+                        <li>Commit</li>
+                        <li>Push</li>
+                        <li>Submit (a pull request)</li>
+                    </ol>
 
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+                <section>
+
+                    <dl>
+                        <dt>Fork</dt>
+                        <dd>To copy a repository from a user's GitHub account to your own GitHub account.</dd>
+                    </dl>
+
+                    <aside class="notes">
+                        Fork means to copy a repository from a user's GitHub account to your own GitHub account. This is useful when you cannot or are not allowed to contribute directly to the original repository. Forking creates a copy for yourself that you can do anything to. For all of our lessons, we will start with forking the lesson repository.
+                    </aside>
+                </section>
+
+                <section>
+                    <dl>
+                        <dt>Clone</dt>
+                        <dd>To copy an entire repository from GitHub to your local computer</dd>
+                        <dt>Pull</dt>
+                        <dd>To copy the most recent changes to a repository from Github to your local computer</dd>
+                    </dl>
+
+                    <aside class="notes">
+                        The next verb is actually two verbs, but they're related. When you want to start working on a repository on your own computer, you clone it. That means you copy the entire repository from GitHub to your local computer. If you're working collaboratively on a project, and someone uploads changes to GitHub, you will pull the most recent changes from GitHub. Pulling doesn't download the entire repository; it just gets the most recent changes. For most of our lessons, you will only interact with cloning. On group projects, pulling will be vital.
+                    </aside>
+                </section>
+
+                <section>
+                    <dl>
+                        <dt>Commit</dt>
+                        <dd>To add and describe changes of files to a repository</dd>
+                    </dl>
+
+                    <aside class="notes">
+                        For git to recognize the changes you made, you have to make what's called a commit. A commit adds and describes changes of files to a repository.
+                    </aside>
+                </section>
+
+                <section>
+                    <dl>
+                        <dt>Push</dt>
+                        <dd>To send commits made locally to GitHub's servers</dd>
+                    </dl>
+
+                    <aside class="notes">
+                        While we have made a commit to our local repository, we haven't actually pushed the change to GitHub's servers. That is done in a separate process called pushing.
+                    </aside>
+                </section>
+
+                <section>
+                    <dl>
+                        <dt>Submit a pull request</dt>
+                        <dd>To ask the owner of the original repository to merge changes from your forked repository into the original repository.</dd>
+                    </dl>
+
+                    <aside class="notes">
+                        The final verb here requires the most explanation. Submitting a pull request is done when you've forked a repository and made changes that you want to be merged back into the original repository. This notifies the owner of the original repo and shows them the changes you've made through diffs. We're going to use this as a submission process for assignments. Your pull requests will probably not be merged, but it's a good way for us to see the work you've done.
+                    </aside>
                 </section>
             </div>
 
