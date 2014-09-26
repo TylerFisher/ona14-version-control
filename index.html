@@ -96,7 +96,7 @@
                 </section>
 
                 <section>
-                    <h3>You've probably used a form of version control.</h3>
+                    <h3 class="jubilat">You've probably used a form of version control.</h3>
                     <ul>
                         <li>MS Word or Google Docs' change-tracking</li>
                         <li>"Undo" buttons</li>
@@ -114,7 +114,7 @@
                 </section>
 
                 <section>
-                    <h3>Problems </br>version control solves</h3>
+                    <h3 class="jubilat">Problems </br>version control solves</h3>
                     <ul>
                         <li>&ldquo;The hard drive crash ate my homework.&rdquo;</li>
                         <li>&ldquo;He said, she said.&rdquo;</li>
@@ -211,7 +211,7 @@
                     </ol>
                 </section>
                 <section>
-                    <h3>Setting up GitHub for Mac/Windows</h3>
+                    <h3 class="jubilat">Setting up GitHub for Mac/Windows</h3>
                     <p>If you haven't downloaded the GitHub app, do so now:</p>
                     <p><a href="http://mac.github.com">http://mac.github.com</a></p>
                     <p><a href="http://windows.github.com">http://windows.github.com</a></p>
@@ -220,7 +220,7 @@
                     <h3 class="jubilat">You'll also need a GitHub account.</h3>
                 </section>
                 <section>
-                    <h3>Setting up GitHub for Mac/Windows</h3>
+                    <h3 class="jubilat">Setting up GitHub for Mac/Windows</h3>
                     <p>If you don't have a GitHub account, make one now at http://github.com.</p>
                     <p>If you already have an account, enter your credentials at the app's prompting.</p>
                     <img src="img/github-setup.png" />
@@ -317,7 +317,7 @@
                 </section>
 
                 <section>
-                    <h3>A recap:</h3>
+                    <h3>A recap</h3>
 
                     <ol>
                         <li>Fork a repository (or clone a repository you already started, or start a new one).</li>
@@ -330,11 +330,11 @@
                     </ol>
                 </section>
                 <section>
-                    <h3>Branching out</h3>
+                    <h3 class="jubilat">Branching out</h3>
                     <p><strong>Branches</strong> in git are ways to experiment safely.</p>
                 </section>
                 <section>
-                    <h3>Branching out</h3>
+                    <h3 class="jubilat">Branching out</h3>
                     <ul>
                         <li>first-draft.doc</li>
                         <li>draft2.doc</li>
@@ -342,7 +342,7 @@
                     </ul>
                 </section>
                 <section>
-                    <h3>Branching out</h3>
+                    <h3 class="jubilat">Branching out</h3>
                     <ul>
                         <li>master</li>
                         <li>stable</li>
@@ -354,16 +354,16 @@
                         features (often named for the feature being built): Branches created for prototyping or building features that might break other's work on master. Should be pushed to remote if there is a chance you might die and leave important work on your local machine.
                     </aside>
                 </section>
-                <section>
-                    <h3>Don't lose your HEAD</h3>
-                    <p>The <strong>HEAD</strong> points to the latest commit in the branch you're working on.</p>
-                </section>
 
                 <section>
                     <h3>Screwing things up</h3>
                     <aside class="notes">
                         merge conflicts, git revert, git cherry-pick
                     </aside>
+                </section>
+                <section>
+                    <h3>Don't lose your HEAD</h3>
+                    <p>The <strong>HEAD</strong> points to the latest commit in the branch you're working on.</p>
                 </section>
 
                 <section>
@@ -392,7 +392,123 @@
                 </section>
                 <section>
                     <h3>Infecting your workplace</h3>
+                    <aside class="notes">
+                        Git can be used by one person or many. You don't necessarily need corporate or even team buy-in. Start using it and it will be easier to convince others of its value. However, there are some gotchas.
+                    </aside>
                 </section>
+                <section>
+                    <h3 class="jubilat">You have to subscribe to the open-source ethos...sort of.</h3>
+                    <img src="img/github_pricing_plans.png">
+                    <aside class="notes">
+                        Public repos are free and unlimited. Private's gonna cost ya.
+                    </aside>
+                </section>
+
+                <section>
+                    <h3>Open-source</h3>
+                    <ul>
+                        <li>Collaborative</li>
+                        <li>Free for commercial use</li>
+                        <li>Transparent</li>
+                        <li>Malleable</li>
+                    </ul>
+                    <aside class="notes">
+                    </aside>
+                </section>
+                <section>
+                    <h3>Open-source</h3>
+                    <ul>
+                        <li>Collaborative: anyone can send you a pull request</li>
+                    </ul>
+                    <aside class="notes">
+                    </aside>
+                </section>
+                <section>
+                    <h3>Open-source</h3>
+                    <ul>
+                        <li>Collaborative: anyone can send you a pull request</li>
+                        <li>Free: anyone can make ONE MILLION DOLLARS off your code</li>
+                    </ul>
+                    <aside class="notes">
+                    </aside>
+                </section>
+                <section>
+                    <h3>Open-source</h3>
+                    <ul>
+                        <li>Collaborative: anyone can send you a pull request</li>
+                        <li>Free: anyone can make ONE MILLION DOLLARS off your code</li>
+                        <li>Transparent: anyone can see your messes</li>
+                    </ul>
+                    <aside class="notes">
+                    </aside>
+                </section>
+                <section>
+                    <h3>Open-source</h3>
+                    <ul>
+                        <li>Collaborative: anyone can send you a pull request</li>
+                        <li>Free: anyone can make ONE MILLION DOLLARS off your code</li>
+                        <li>Transparent: anyone can see your messes</li>
+                        <li>Malleable: anyone can fork your code</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Precautions</h3>
+                    <aside class="notes">
+                        Security, ex-employee access
+                    </aside>
+                </section>
+
+                <section>
+                    <h3 class="jubilat">Transparency & security are an odd couple.</h3>
+                    <aside class="notes">
+                        Factor out auth, don't commit passwords or keys
+                    </aside>
+                </section>
+
+                <section>
+                    <h3 class="jubilat">Account types</h3>
+                    <p><a href="https://github.com/hbillings">Personal</a> vs. <a href="https://github.com/newsapps/">organizational</a></p>
+                    <ul>
+                        <li>Collaborators vs. team members</li>
+                        <li>One vs. multiple project owners</li>
+                        <li>Permissions management</li>
+                        </ul>
+                    <aside class="notes">
+                        Easier to add a member that has rights to all projects than a collaborator that needs to be added to individual projects.
+                        Transferrance of ownership when someone leaves a company is easy under org plan
+
+                    </aside>
+                </section>
+
+                <section>
+                    <h3 class="jubilat"><a href="https://github.com/hbillings">Personal accounts</a></h3>
+                    <p>You are the Git god.</p>
+                    <ul>
+                        <li>You own all repos.</li>
+                        <li>You get billed.</li>
+                        <li>Your email is the only one associated with the account.</li>
+                    </ul>
+                    <aside class="notes">
+                        Others may send you pull requests, but you're in charge. And you're on the hook if your email gets stolen.
+                    </aside>
+                </section>
+                <section>
+                    <h3 class="jubilat"> <a href="https://github.com/newsapps/">Organizational accounts</a></h3>
+                    <ul>
+                        <li>Collaborators vs. team members</li>
+                        <li>Permissions management with teams</li>
+                        <li>Multiple project owners</li>
+                        <li>Multiple email & billing accounts.</li>
+                    </ul>
+                    <aside class="notes">
+                        Easier to add a member that has rights to all projects than a collaborator that needs to be added to individual projects.
+                        Transferrance of ownership when someone leaves a company is easy under org plan
+
+                    </aside>
+                </section>
+
+
                 <section>
                     <h3>GitHub in the wild</h3>
                 </section>
